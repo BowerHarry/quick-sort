@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 // This program implements a quick sort algorithm on a list of names.
-public class CW2Q2 {
+public class main {
     public static void main(String[] args){
         // Reads the names from a text file at the provided path into a String.
         Scanner scanner = null;
         try {
             // Provide the path of the text file here.
-            scanner = new Scanner( new File("C:\\Users\\Harry\\OneDrive - University of Bath\\Programming\\CW4-C&Java\\Files\\Names\\names.txt"));
+            scanner = new Scanner( new File(""));
         }
         catch (FileNotFoundException e) {
             e.printStackTrace();
